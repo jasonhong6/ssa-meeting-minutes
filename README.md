@@ -1,0 +1,1 @@
+Meeting minutes of the Science Students' Association of the University of Manitoba. Written in Typst.

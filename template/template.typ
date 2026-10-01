@@ -1,9 +1,7 @@
 
 // --- BASIC LAYOUT AND FORMAT ---
-#set page(margin: 1.00in) // Default: 1.75in
+#set page(margin: 1.00in, paper: "us-letter")
 #set par(leading: 0.55em, spacing: 0.55em, first-line-indent: 1.8em, justify: true)
-// #set text(font: "New Computer Modern")
-// #show raw: set text(font: "New Computer Modern Mono")
 #show heading: set block(above: 1.4em, below: 1em)
 
 // --- PREFERENCES ---
@@ -12,7 +10,7 @@
   // Automatic centering of images
   align(center, it)
 }
-// #show raw: set text(font: "Fira Code")
+#show raw: set text(font: "Lilex")
 
 // --- ATTENDANCE TABLE RULES ---
 #show table.cell.where(x: 0): strong
@@ -43,7 +41,6 @@
 )
 
 // --- SSA SPECIFIC STUFF ---
-// #set heading(numbering: "1.")
 #set enum(numbering: "(a)(1)(i)(I)")
 
 #let motion(
@@ -154,8 +151,7 @@
 #divider()
 
 = Attendance
-// Councillor Attendance Table
-#let councillors = csv("councillors.csv")
+#let councillors = csv("attendance.csv")
 #table(
   columns: (52%, 26%, 22%),
   stroke: 1pt + luma(100),
@@ -165,7 +161,7 @@
   ..councillors.flatten().map(conditional-cell),
 )
 
-=== Regrets and Proxies
+== Regrets and Proxies
 - (Example) (No proxy required): Jason Hong; Secretary.
 
 #divider()
@@ -182,7 +178,7 @@ A motion to approve the previous meeting's minutes was moved by [FILL IN] and se
 == Reports of Councillors
 // Only fill in roles that actually gave a report this meeting
 #let report-content = (
-  "President": [
+  "President and Vice President": [
     Example report.
   ],
 )
@@ -237,3 +233,102 @@ A motion to adjourn the meeting was moved by [FILL IN] and seconded by [FILL IN]
   status: "Passed",
 )
 
+// #let approve(what, result-noun, moved-by: none, seconded-by: none, how: none) = [
+//   A motion to approve #what was moved by #or-todo(moved-by, "mover")
+//   and seconded by #or-todo(seconded-by, "seconder").
+//   #result-noun were approved as #or-todo(how, "as written / as amended").
+// ]
+
+// #let adjourn(moved-by: none, seconded-by: none, time: none) = [
+//   A motion to adjourn the meeting was moved by #or-todo(moved-by, "mover")
+//   and seconded by #or-todo(seconded-by, "seconder"). The motion was adopted
+//   without objection and the meeting was adjourned at #or-todo(time, "time") p.m.
+// ]
+test
+// #adjourn(time: "7:42")
+
+// names.typ — automatic name formatting for meeting minutes
+//
+// First mention of a person within an agenda item uses their "intro" style;
+// every later mention in that same item is just their last name.
+// The tracking resets at each heading up to `reset-level`.
+
+// ---------------------------------------------------------------
+// 1. PEOPLE — edit this for each term / meeting
+// ---------------------------------------------------------------
+// intro styles:
+//   "title-last" -> "President Crossman"          (unique titles)
+//   "title-full" -> "Senator Jane Smith"          (multiple holders, short title)
+//   "full"       -> "Jane Smith"                  (long or shared titles)
+#let people = (
+  crossman: (
+    first: "Noah",
+    last: "Crossman",
+    title: "President",
+    intro: "title-last",
+  ),
+  smith: (
+    first: "Jane",
+    last: "Smith",
+    title: "Senator",
+    intro: "title-full",
+  ),
+  lee: (
+    first: "Alex",
+    last: "Lee",
+    title: "Student Services Programmer (Academics)",
+    intro: "full",
+  ),
+)
+
+// ---------------------------------------------------------------
+// 2. SETTINGS
+// ---------------------------------------------------------------
+// Headings at this level or higher (1 = top level) reset "first mention".
+// With 2, both `=` and `==` headings reset; `===` and below do not.
+#let reset-level = 2
+
+// ---------------------------------------------------------------
+// 3. MACHINERY
+// ---------------------------------------------------------------
+#let seen = state("names-seen", ())
+
+// Wrap your document with this: #show: setup-names
+#let setup-names(body) = {
+  show heading: it => {
+    if it.level <= reset-level { seen.update(()) }
+    it
+  }
+  body
+}
+
+#let _get(key) = {
+  assert(key in people, message: "Unknown person key: " + key)
+  people.at(key)
+}
+
+#let _full(p) = p.first + " " + p.last
+
+// Main function: #who("crossman")
+// First mention in the current item -> intro style; afterwards -> last name.
+#let who(key) = context {
+  let p = _get(key)
+  let is-first = not seen.get().contains(key)
+  seen.update(s => s + (key,))
+  if not is-first { p.last } else {
+    let style = p.at("intro", default: "title-last")
+    if style == "title-last" { p.title + " " + p.last } else if style == "title-full" {
+      p.title + " " + _full(p)
+    } else { _full(p) }
+  }
+}
+
+// Always last name only, and does not count as a first mention.
+// Intended for motions: "Moved by #surname("crossman"), seconded by ..."
+#let surname(key) = _get(key).last
+
+// Always full name, and does not count as a first mention.
+#let fullname(key) = _full(_get(key))
+
+#who("crossman")
+#who("joshi")
