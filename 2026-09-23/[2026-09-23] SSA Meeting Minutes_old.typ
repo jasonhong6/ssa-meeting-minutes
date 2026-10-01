@@ -302,19 +302,58 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
     - President Noah Crossman and Vice President Pereira gave a summation of the Report of the President and Vice President.
     - *Questions:*
       - President Crossman asked whether having deans of the Faculty of Science present at the SSA Town Hall, as they have in previous Town Halls, is beneficial or a hinderance. If a hinderance, President Crossman or Vice President Pereira may give updates on behalf of the deans.
-        - #who(joshi)
+        - #who("joshi") and #who("brar") spoke in favour of having the deans present, as they are not easy to access for students-at-large.
+      - #who("gislason") asked how students may nominate themselves as candidates at the upcoming General Assembly.
+        - #who("pereira") stated that
+      - #who("hong") asked whether voting for the Community Representatives at the Community Assembly will be restricted to those who self-identify with the groups the Community Representatives will represent.
+        - #who("pereira") stated that all students will count toward quorom for the General Assembly. However, voters will be asked only to vote in the elections in which they self-identify for the respective Community Representative group.
+      // SKIP: FROM byelection to DUROJAYE
+
+      - #who("uppal") asked about the current situation regarding expansion of the SSA Lounge courtyard.
+        - #who("crossman") stated that the courtyard is currently unfinished due to a lack of funds in a previous year. If the previous landscaping architects are still on leave, then the SSA could consider hiring an external architect. The SSA now has the funds to complete an expansion, but it is noted that few people use the courtyard.
+        - #who("delaney") stated that students have been using the undeveloped section of the courtyard to play badminton and frisbee, expressing uncertainty about developing the area.
+      - #who("kaur") asked about how the proposal to use the referendum fund to create a Neuroscience program (an idea from the 2025-26 academic year) would work.
+        - #who("crossman") stated that 2025-26 SSA President Jasmine Groisman had spoken to the Department of Biological Scieneces. The program would exist as its own degree path under Biological Sciences, and the primary use of funding would be to pay the salaries of instructors.
+      - #who("kaur") asked if the referendum fund could be used to fund a Pre-Optomery program at the university, stating that the program would not require new instructors, but only a new stream.
+        - #who("crossman") stated that this can be discussed with the Associate Dean of Programs.
+      - #who("durojaiye") asked if the referendum fund could be used to fund additional sections in courses that currently struggle with long waitlists.
+        - #who("crossman") stated that he is unsure how talks would go, but said that it is a conversation he can have with the Associate Dean of Programs.
+  ],
+  "Treasurer": [
+    - #who("sharma") gave a summation of the Report of the Treasurer.
   ],
   "External Partnerships": [
 
   ],
   "Special Events": [
-    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$138.24 in pizzas purchased for SSA team bonding was moved by President Crossman and seconded by Indigenous Representative April Quill. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
-    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LABTREK was moved by UMSU Director Kruk and seconded by President Crossman. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
-
-    - Director of Special Events Quinn Derksen gave a summation of the report
-    - UMSU Director Danylo Kruk opposed the motion.
-    - UMSU Director Kruk opposed the motion.
-    -
+    - #who("derksen") provided a summation of the Report of the Special Events Team.
+    - *Team Bonding Pizza Motion:* A motion to reimburse #who("pereira") for \$138.24 in pizzas purchased for SSA team bonding was moved by Noah Crossman and seconded by April Quill. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
+    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LabTREK was moved by Danylo Kruk and seconded by Noah Crossman. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
+    - *Breakfast and Gratuities Reimbursement Motion:* A motion to reimburse #who("derksen") for \$237.39 for spending on breakfast, gratuities, drinks, and snacks was moved by Caleb Pereira and seconded by Noah Crossman. The motion was carried without opposition.
+    - *Comments:*
+      - #who("crossman") thanked #who("derksen") for her work on LabTREK.
+    - *Questions:*
+      - #who("crossman") asked if the Special Events team had any plans aside from the planned event for Orange Shirt Day.
+        - #who("derksen") stated that a member of the Physical Education Recreational Kinesiology Student Council (PERKS) wanted to collaborate to hold a running event. Updates on this potential event will be given at a subsequent meeting.
+  ],
+  "Indigenous Representative": [
+    - #who("quill") provided a summation of the Report of the Indigenous Representative.
+  ],
+  "Accessibility Representative": [
+    - #who("vong") gave a summation of the Report of the Accessibility Representative.
+    - *Comments:*
+      - #who("crossman") thanked #who("vong") for her work on the SSA Discord.
+      - #who("crossman") encouraged Councillors to post the SSA's Instagram announcements on the SSA Discord. Councillors who are interested in assisting in the SSA Discord are encouraged to contact #who("crossman").
+  ],
+  "Student Services": [
+    - #who("ogweno"), #who("wong"), and #who("lozano") provided a summation of the Report of the Student Services Team.
+    - *Orientation Ice Cream Reimbursement Motion:* A motion to reimburse \$143.66 in ice cream purchased for orientation events was moved by Danylo Kruk and seconded by Hargun Uppal. The motion was carried without opposition.
+  ],
+  "Communications": [
+    - In #who("ryu")'s absence, #who("ganetsky") provided a summation of the Report of the Communications Team.
+  ],
+  "Lounge Programmer": [
+    - #who("delaney") provided a summation of the Report of the Lounge Programmer.
   ],
 )
 
@@ -330,7 +369,13 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
 == Reports of Committees
 #let committee-report-content = (
   "Executive Committee": [
-    Example report.
+    - #who("pereira") provided a summation of the Report of the Executive Committee, in lieu of #who("sarte") who was serving as the Chairperson of the meeting.
+    - *Comments:*
+      - #who("sarte") reminded Councillors that the deadline to join the Board of Science Groups (BOSG) is approaching soon (September 30, 11:59 p.m.). Councillors were encouraged to spread this reminder.
+    - *Questions:*
+      - #who("joshi") asked if the deadline to apply to the BOSG would be extended if a group was awaiting full recognition by UMSU, or if a group was awaiting UMSU approval for constituional amendments  required to join the BOSG. It was noted that the process to amend a club constitution is often slow to complete.
+        - #who("sarte") stated that if a group has been pre-approved by UMSU and the group's executives have completed the required Sexual Violence Prevention Workshop for approval, they can contact him and explain the group's situation, and contact him subsequently upon obtaining full recognition.
+        - With regard to the constitutional amendments, #who("sarte") stated that he will contact all groups expected to join the BOSG, working with groups on a case-by-case basis.
   ],
 )
 
@@ -351,7 +396,7 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
 - Vice President of University Affairs Elendu reminded Councillors of UMSU's Ask Admin event.
 - *Questions and comments:*
   - Senator Joshi asked whether there is anything the SSA could help with in regards to the events.
-    - President Kaur responded, stating that it would be helpful to advertise the event to students.
+    - President Kaur responded, stating that it w ould be helpful to advertise the event to students.
   - UMSU Director Danylo Kruk mentioned that some Councillors had questions regarding the resignation the Vice President of External Affairs and Vice President of Finance and Operations.
     - Vice President Elendu responded, stating that the UMSU Executive Committee prefers that a by-election not be held. Elendu
   - Treasurer Anshika Sharma
