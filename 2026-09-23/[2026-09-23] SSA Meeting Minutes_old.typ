@@ -321,6 +321,11 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
   ],
   "Treasurer": [
     - #who("sharma") gave a summation of the Report of the Treasurer.
+    - *Motion for the Approval of the 2026-27 SSA Budget:* A motion to approve the SSA's budget for the academic year was moved by Kushal Joshi and seconded by Zaina Abazid.
+    - *Comments:*
+      - #who("crossman") requested a round of applause for #who("sharma")'s work on preparing the SSA budget.
+    - *Questions:*
+      - #who()
   ],
   "External Partnerships": [
 
