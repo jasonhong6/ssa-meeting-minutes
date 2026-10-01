@@ -391,19 +391,23 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
 == Miscellaneous
 // TODO: Not finished. Need to figure out how to actually transcribe allat.
 - Following the Report of the President and Vice President, UMSU President Heaven Kaur and UMSU Vice President of University Affairs Grace Elendu visited the SSA Council meeting.
-- *Speaking Motion:* A motion to allow Kaur and Elendu to speak was moved by President Crossman and seconded by Senator Joshi.
-- President Kaur reminded Councillors of UMSU's planned protest at the Manitoba Legislative Building,
-- Vice President of University Affairs Elendu reminded Councillors of UMSU's Ask Admin event.
-- *Questions and comments:*
-  - Senator Joshi asked whether there is anything the SSA could help with in regards to the events.
-    - President Kaur responded, stating that it w ould be helpful to advertise the event to students.
-  - UMSU Director Danylo Kruk mentioned that some Councillors had questions regarding the resignation the Vice President of External Affairs and Vice President of Finance and Operations.
-    - Vice President Elendu responded, stating that the UMSU Executive Committee prefers that a by-election not be held. Elendu
-  - Treasurer Anshika Sharma
-  - Vice President of University Affairs Grace Elendu
-  - Brar
-  - Vice President Pereira
-  -
+- *Guest Speaking Motion:* A motion to allow Kaur and Elendu to speak was moved by President Crossman and seconded by Senator Joshi. The motion was carried without opposition.
+- UMSU President Kaur reminded Councillors of UMSU's planned protest at the Manitoba Legislative Building,
+- Elendu reminded Councillors of UMSU's Ask Admin event.
+- *Questions:*
+  - #who("joshi") asked whether there is anything the SSA could help with in regards to the events.
+    - UMSU President Kaur responded, stating that it w ould be helpful to advertise the event to students.
+  - #who("kruk") mentioned that some Councillors had questions regarding the resignation the Vice President of External Affairs and Vice President of Finance and Operations of UMSU.
+    - Elendu stated that the UMSU Executive Committee would prefer that a by-election not be held. She stated the period between May, when the elected executives take office, and August, is a critical period for executives to become effective in their roles. Elendu stated that if a by-election were held in October, the elected candidates would take office in November and reach optimal performance in March before their term ends in May.
+  - #who("sharma") and #who("brar") expressed concern about potential delays for things like email communications or approval from UMSU.
+    - UMSU President Kaur stated that there will be no additional delays to responses. Kaur stated that emails directed to the inboxes of the Vice President of External Affairs and Vice President of Finance and Operations will be directed to her inbox, stating that emails should be responded to on the same day or the day after.
+    - UMSU President Kaur stated that an additional person will be hired by the end of October to assist in the portfolio of UMSU Services Coordinator Mathew Chomyn to prevent delays.
+  - #who("pereira") asked that if a by-election is not held, whether it will be transparently communicated which remaining executives take on the portfolio items of the resigned executives.
+    - Elendu stated that the current proposal for dividing the roles of the resigned executives among the remaining executives is in a Board of Directors motion that is publicly available. Elendu stated that the division of roles was deliberated upon extensively by the remaining executives.
+    - UMSU President Kaur stated that the division of roles is not ideal, but stated that she believed it was the best option in given situation.
+- *Comments:*
+  - #who("pereira") expressed concern about the plan to not hold a by-election to fill the vacated executive positions, stating that by having the remaining UMSU executives take over the portfolios of the two executives who resigned, the mandate of the remaining executives may be diluted. #who("pereira") expressed concern delays will occur if roles are divided as the semester progresses and executives become more occupied with coursework.
+  - Elendu stated that if a by-election is not held, the salaries of the resigned executives would be allocated in a motion submitted to the UMSU Board of Directors. Elendu noted that in the previous year, the salaries of removed executives were allocated to the University of Manitoba Food Bank.
 == New Business
 - Treasurer Sharma requested that when filling out the SSA Councillor reimbursement form, Councillors match the budget category on the form with the same ballot allocation as the newly approved SSA budget.
 - Treasurer Sharma stated that the SSA received the 30% advance payment from UMSU. // TODO: elaborate
