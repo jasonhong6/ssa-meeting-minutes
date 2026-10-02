@@ -343,7 +343,6 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
       - #who("durojaiye") asked if the referendum fund could be used to fund additional sections in courses that currently struggle with long waitlists.
         - #who("crossman") stated that he is unsure how talks would go, but said that it is a conversation he can have with the Associate Dean of Programs.
   ],
-  // TODO: treasurer
   "Treasurer": [
     - #who("sharma") gave a summation of the Report of the Treasurer.
     - #who("sharma") presented the 2026-27 SSA Budget.
@@ -358,6 +357,10 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
       - #who("derksen") expressed concern over reductions in the SSA Gala's budget, stating that it is uncertain that revenue from ticket sales will increase.
         - #who("crossman") stated that the budget does not comprise all of the SSA's funds. Not all of the SSA's savings have been allocated, but the funds can be drawn on if necessary.
         - #who("sharma") stated that there may be extra funds in the budget over time from allocations that go unspent.
+        - #who("pereira") stated that if any team has concerns over a lack of funding, the SSA will be receptive, and that no team should be stressed about the amount of funds they have been given.
+    - *Questions:*
+      - #who("ogweno") asked about the mechanics of working with the Princeton Review.
+        - #who("kruk") stated that in a previous year the Princeton Review gave away materials for free and provided Council members with a discount on materials.
   ],
   "External Partnerships": [
     - #who("haque") gave a summation of the Report of the External Partnerships Programmer.
@@ -426,7 +429,6 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
   }
 }
 == Miscellaneous
-// TODO: Not finished. Need to figure out how to actually transcribe allat.
 - Following the Report of the President and Vice President, UMSU President Heaven Kaur and UMSU Vice President of University Affairs Grace Elendu visited the SSA Council meeting.
 - *Guest Speaking Motion:* A motion to allow Kaur and Elendu to speak was moved by President Crossman and seconded by Senator Joshi. The motion was carried without opposition.
 - UMSU President Kaur reminded Councillors of UMSU's planned protest at the Manitoba Legislative Building,
