@@ -16,37 +16,42 @@
   pereira: (first: "Caleb", last: "Pereira", title: "Vice President", intro: "title-last"),
   torres: (first: "Reyna", last: "Torres", title: "Chairperson", intro: "title-last"),
   hong: (first: "Jason", last: "Hong", title: "Secretary", intro: "title-last"),
-  negi: (first: "Yashsavi", last: "Negi", title: "Senator", intro: "title-full"),
-  uppal: (first: "Hargun", last: "Uppal", title: "Senator", intro: "title-full"),
-  joshi: (first: "Kushal", last: "Joshi", title: "Senator", intro: "title-full"),
-  kruk: (first: "Danylo", last: "Kruk", title: "UMSU Director", intro: "full"),
-  brar: (first: "Roopak", last: "Brar", title: "Director of Student Advocacy", intro: "full"),
-  singh: (first: "Gurminder", last: "Singh", title: "International Representative", intro: "full"),
-  abazid: (first: "Zaina", last: "Abazid", title: "Women’s Representative", intro: "full"),
-  fatunmbi: (first: "Seun", last: "Fatunmbi", title: "Black Students’ Representative", intro: "full"),
-  gislason: (first: "Alice Miranda", last: "Gislason", title: "2SLGBTQIA+ Representative", intro: "full"),
-  vong: (first: "Victoria", last: "Vong", title: "Accessibility Representative", intro: "full"),
-  quill: (first: "April", last: "Quill", title: "Indigenous Representative", intro: "full"),
+  negi: (first: "Yashsavi", last: "Negi", title: "Senator", intro: "title-last"),
+  uppal: (first: "Hargun", last: "Uppal", title: "Senator", intro: "title-last"),
+  joshi: (first: "Kushal", last: "Joshi", title: "Senator", intro: "title-last"),
+  kruk: (first: "Danylo", last: "Kruk", title: "UMSU Director", intro: "title-last"),
+  brar: (first: "Roopak", last: "Brar", title: "Director of Student Advocacy", intro: "title-last"),
+  singh: (first: "Gurminder", last: "Singh", title: "International Representative", intro: "title-last"),
+  abazid: (first: "Zaina", last: "Abazid", title: "Women’s Representative", intro: "title-last"),
+  fatunmbi: (first: "Seun", last: "Fatunmbi", title: "Black Students’ Representative", intro: "title-last"),
+  gislason: (first: "Alice Miranda", last: "Gislason", title: "2SLGBTQIA+ Representative", intro: "title-last"),
+  vong: (first: "Victoria", last: "Vong", title: "Accessibility Representative", intro: "title-last"),
+  quill: (first: "April", last: "Quill", title: "Indigenous Representative", intro: "title-last"),
   sharma: (first: "Anshika", last: "Sharma", title: "Treasurer", intro: "title-last"),
-  delaney: (first: "Sean", last: "Delaney", title: "Lounge Programmer", intro: "full"),
+  delaney: (first: "Sean", last: "Delaney", title: "Lounge Programmer", intro: "title-last"),
   sarte: (first: "Nick", last: "Sarte", title: "Executive Assistant", intro: "title-last"),
-  haque: (first: "Hamza", last: "Haque", title: "External Partnerships Programmer", intro: "full"),
-  ryu: (first: "Yeeun", last: "Ryu", title: "Director of Communications", intro: "full"),
-  conia: (first: "Vincenzina", last: "Conia", title: "Communications Programmer (Marketing)", intro: "full"),
-  dhaliwal: (first: "Imrose", last: "Dhaliwal", title: "Communications Programmer (Marketing)", intro: "full"),
-  ganetsky: (first: "Alix", last: "Ganetsky", title: "Communications Programmer (Media)", intro: "full"),
-  kaur: (first: "Hashmeen", last: "Kaur", title: "Communications Programmer (Productions)", intro: "full"),
-  derksen: (first: "Quinn", last: "Derksen", title: "Director of Special Events", intro: "full"),
-  gupta: (first: "Jayden", last: "Gupta", title: "Special Events Programmer (Social)", intro: "full"),
-  large: (first: "Zenah", last: "Large", title: "Special Events Programmer (Social)", intro: "full"),
-  talukder: (first: "Fatin Shadab", last: "Talukder", title: "Special Events Programmer (Research)", intro: "full"),
-  lehman: (first: "Benjamin", last: "Lehman", title: "Special Events Programmer (Research)", intro: "full"),
-  ogweno: (first: "Ian", last: "Ogweno", title: "Director of Student Services", intro: "full"),
-  wong: (first: "Erica", last: "Wong", title: "Student Services Programmer (Academics)", intro: "full"),
-  lozano: (first: "Mary", last: "Lozano", title: "Student Services Programmer (Academics)", intro: "full"),
-  kumar: (first: "Harsh", last: "Kumar", title: "Services Programmer (Operations)", intro: "full"),
-  gray: (first: "Matthew", last: "Gray", title: "Services Programmer (Operations)", intro: "full"),
-  durojaiye: (first: "Kay", last: "Durojaiye", title: "Student Services Programmer (Outreach)", intro: "full"),
+  haque: (first: "Hamza", last: "Haque", title: "External Partnerships Programmer", intro: "title-last"),
+  ryu: (first: "Yeeun", last: "Ryu", title: "Director of Communications", intro: "title-last"),
+  conia: (first: "Vincenzina", last: "Conia", title: "Communications Programmer (Marketing)", intro: "title-last"),
+  dhaliwal: (first: "Imrose", last: "Dhaliwal", title: "Communications Programmer (Marketing)", intro: "title-last"),
+  ganetsky: (first: "Alix", last: "Ganetsky", title: "Communications Programmer (Media)", intro: "title-last"),
+  kaur: (first: "Hashmeen", last: "Kaur", title: "Communications Programmer (Productions)", intro: "title-last"),
+  derksen: (first: "Quinn", last: "Derksen", title: "Director of Special Events", intro: "title-last"),
+  gupta: (first: "Jayden", last: "Gupta", title: "Special Events Programmer (Social)", intro: "title-last"),
+  large: (first: "Zenah", last: "Large", title: "Special Events Programmer (Social)", intro: "title-last"),
+  talukder: (
+    first: "Fatin Shadab",
+    last: "Talukder",
+    title: "Special Events Programmer (Research)",
+    intro: "title-last",
+  ),
+  lehman: (first: "Benjamin", last: "Lehman", title: "Special Events Programmer (Research)", intro: "title-last"),
+  ogweno: (first: "Ian", last: "Ogweno", title: "Director of Student Services", intro: "title-last"),
+  wong: (first: "Erica", last: "Wong", title: "Student Services Programmer (Academics)", intro: "title-last"),
+  lozano: (first: "Mary", last: "Lozano", title: "Student Services Programmer (Academics)", intro: "title-last"),
+  kumar: (first: "Harsh", last: "Kumar", title: "Services Programmer (Operations)", intro: "title-last"),
+  gray: (first: "Matthew", last: "Gray", title: "Services Programmer (Operations)", intro: "title-last"),
+  durojaiye: (first: "Kay", last: "Durojaiye", title: "Student Services Programmer (Outreach)", intro: "title-last"),
 )
 
 // ---------------------------------------------------------------
@@ -54,7 +59,7 @@
 // ---------------------------------------------------------------
 // Headings at this level or higher (1 = top level) reset "first mention".
 // With 2, both `=` and `==` headings reset; `===` and below do not.
-#let reset-level = 2
+#let reset-level = 3
 
 // ---------------------------------------------------------------
 // 3. MACHINERY
@@ -244,6 +249,25 @@
   "Bylaws Committee",
 )
 
+
+
+
+
+
+
+
+
+
+
+
+#show: setup-names
+
+
+
+
+
+
+
 // --- BEGIN DOCUMENT ---
 
 
@@ -303,14 +327,14 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
     - *Questions:*
       - President Crossman asked whether having deans of the Faculty of Science present at the SSA Town Hall, as they have in previous Town Halls, is beneficial or a hinderance. If a hinderance, President Crossman or Vice President Pereira may give updates on behalf of the deans.
         - #who("joshi") and #who("brar") spoke in favour of having the deans present, as they are not easy to access for students-at-large.
-      - #who("gislason") asked how students may nominate themselves as candidates at the upcoming General Assembly.
-        - #who("pereira") stated that
+      - #who("gislason") asked how students may nominate themselves as candidates at the upcoming General Assembly to fill the vacant First Years' Representative and Racialized Representative positions.
+        - #who("pereira") stated that candidates may simply nominate themselves at the General Assembly as long as they self-identify with the group they are running to represent.
       - #who("hong") asked whether voting for the Community Representatives at the Community Assembly will be restricted to those who self-identify with the groups the Community Representatives will represent.
         - #who("pereira") stated that all students will count toward quorom for the General Assembly. However, voters will be asked only to vote in the elections in which they self-identify for the respective Community Representative group.
       // SKIP: FROM byelection to DUROJAYE
 
       - #who("uppal") asked about the current situation regarding expansion of the SSA Lounge courtyard.
-        - #who("crossman") stated that the courtyard is currently unfinished due to a lack of funds in a previous year. If the previous landscaping architects are still on leave, then the SSA could consider hiring an external architect. The SSA now has the funds to complete an expansion, but it is noted that few people use the courtyard.
+        - #who("crossman") stated that the courtyard is currently unfinished due to a lack of funds during a previous year. If the previous landscaping architects are still on leave, then the SSA could consider hiring an external architect. The SSA now has the funds to complete an expansion, but it is noted that few people use the courtyard.
         - #who("delaney") stated that students have been using the undeveloped section of the courtyard to play badminton and frisbee, expressing uncertainty about developing the area.
       - #who("kaur") asked about how the proposal to use the referendum fund to create a Neuroscience program (an idea from the 2025-26 academic year) would work.
         - #who("crossman") stated that 2025-26 SSA President Jasmine Groisman had spoken to the Department of Biological Scieneces. The program would exist as its own degree path under Biological Sciences, and the primary use of funding would be to pay the salaries of instructors.
@@ -319,24 +343,32 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
       - #who("durojaiye") asked if the referendum fund could be used to fund additional sections in courses that currently struggle with long waitlists.
         - #who("crossman") stated that he is unsure how talks would go, but said that it is a conversation he can have with the Associate Dean of Programs.
   ],
+  // TODO: treasurer
   "Treasurer": [
     - #who("sharma") gave a summation of the Report of the Treasurer.
+    - #who("sharma") presented the 2026-27 SSA Budget.
     - *Motion for the Approval of the 2026-27 SSA Budget:* A motion to approve the SSA's budget for the academic year was moved by Kushal Joshi and seconded by Zaina Abazid.
     - *Comments:*
+      - #who("brar") stated that the open bar and cheap ticket prices present at the 2025-26 SSA Gala were positive for student engagement, expressing concern about the cut to the Gala's alcohol budget.
       - #who("crossman") requested a round of applause for #who("sharma")'s work on preparing the SSA budget.
-    - *Questions:*
-      - #who()
+      - #who("kruk") stated that during the 2025-26 academic year, then SSA President Jasmine Groisman requested #who("kruk") offset the costs of awards given at the 2025-26 SSA Gala. He stated that he was in contact with the head of awards of the Faculty of Science, who would circle back the following year. #who("kurk") states he will forward his converation to the Special Events Team or External Partnerships Programmer.
+        - #who("joshi") stated that with the funds allocated to awards during the Gala, further savings may be made through a reduction of the awards budget.
+          - #who("crossman") stated that the budget reduction was to reduce alcohol, not cut the Gala itself.
+          - #who("crossman") also notes that the reduction in funds will likely be offset by increased funds from ticket sales and an increased focus on securing sponsors.
+      - #who("derksen") expressed concern over reductions in the SSA Gala's budget, stating that it is uncertain that revenue from ticket sales will increase.
+        - #who("crossman") stated that the budget does not comprise all of the SSA's funds. Not all of the SSA's savings have been allocated, but the funds can be drawn on if necessary.
+        - #who("sharma") stated that there may be extra funds in the budget over time from allocations that go unspent.
   ],
   "External Partnerships": [
-
+    - #who("haque") gave a summation of the Report of the External Partnerships Programmer.
   ],
   "Special Events": [
     - #who("derksen") provided a summation of the Report of the Special Events Team.
-    - *Team Bonding Pizza Motion:* A motion to reimburse #who("pereira") for \$138.24 in pizzas purchased for SSA team bonding was moved by Noah Crossman and seconded by April Quill. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
-    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LabTREK was moved by Danylo Kruk and seconded by Noah Crossman. The motion was carried with one opposition vote from UMSU Director Danylo Kruk.
+    - *Team Bonding Pizza Motion:* A motion to reimburse #who("pereira") for \$138.24 in pizzas purchased for SSA team bonding was moved by Noah Crossman and seconded by April Quill. The motion was carried with one opposition vote from Danylo Kruk.
+    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LabTREK was moved by Danylo Kruk and seconded by Noah Crossman. The motion was carried with one opposition vote from Danylo Kruk.
     - *Breakfast and Gratuities Reimbursement Motion:* A motion to reimburse #who("derksen") for \$237.39 for spending on breakfast, gratuities, drinks, and snacks was moved by Caleb Pereira and seconded by Noah Crossman. The motion was carried without opposition.
     - *Comments:*
-      - #who("crossman") thanked #who("derksen") for her work on LabTREK.
+      - #who("crossman") thanked the Special Events team for their work on LabTREK.
     - *Questions:*
       - #who("crossman") asked if the Special Events team had any plans aside from the planned event for Orange Shirt Day.
         - #who("derksen") stated that a member of the Physical Education Recreational Kinesiology Student Council (PERKS) wanted to collaborate to hold a running event. Updates on this potential event will be given at a subsequent meeting.
@@ -412,16 +444,17 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
     - UMSU President Kaur stated that the division of roles is not ideal, but stated that she believed it was the best option in given situation.
 - *Comments:*
   - #who("pereira") expressed concern about the plan to not hold a by-election to fill the vacated executive positions, stating that by having the remaining UMSU executives take over the portfolios of the two executives who resigned, the mandate of the remaining executives may be diluted. #who("pereira") expressed concern delays will occur if roles are divided as the semester progresses and executives become more occupied with coursework.
+- *Questions:*
   - Elendu stated that if a by-election is not held, the salaries of the resigned executives would be allocated in a motion submitted to the UMSU Board of Directors. Elendu noted that in the previous year, the salaries of removed executives were allocated to the University of Manitoba Food Bank.
 == New Business
-- Treasurer Sharma requested that when filling out the SSA Councillor reimbursement form, Councillors match the budget category on the form with the same ballot allocation as the newly approved SSA budget.
+- #who("sharma") requested that when filling out the SSA Councillor reimbursement form, Councillors match the budget category on the form with the same ballot allocation as the newly approved SSA budget.
 - Treasurer Sharma stated that the SSA received the 30% advance payment from UMSU. // TODO: elaborate
-- *Council Meeting Pizza Motion:* A motion to reimburse the cost of \$167.83 in pizza purchased for the present Council meeting was moved by Senator Joshi and seconded by Black Students' Representative Seun Fatunmbi. The motion was carried without opposition.
-- President Crossman thanked Executive Assistant Nick Sharma for chairing the meeting.
-- Vice President Pereira thanked Councillors for their work.
+- *Council Meeting Pizza Motion:* A motion to reimburse the cost of \$167.83 in pizza purchased for the present Council meeting was moved by Kushal Joshi and seconded by Seun Fatunmbi. The motion was carried without opposition.
+- #who("crossman") thanked #who("sarte") for chairing the meeting.
+- #who("pereira") thanked Councillors for their work.
 == Important Dates
 == Adjournment
-A motion to adjourn the meeting was moved by Kruk and seconded by President Crossman. The motion was adopted without objection and the meeting was adjourned at 8:08 p.m.
+A motion to adjourn the meeting was moved by Danylo Kruk and seconded by Noah Crossman. The motion was adopted without objection and the meeting was adjourned at 8:08 p.m.
 
 // --- MOTIONS ---
 #pagebreak()
