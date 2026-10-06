@@ -270,8 +270,6 @@
 
 // --- BEGIN DOCUMENT ---
 
-
-
 #grid(
   columns: (1fr, auto),
   // Text takes remaining space, image scales to its size
@@ -303,7 +301,15 @@
 )
 
 == Regrets and Proxies
-- (Example) (No proxy required): Jason Hong; Secretary.
+=== Elected Councillors
+- Yashsavi Negi; Senator.
+  - Proxy: Nick Sarte; Executive Assistant.
+- Gurminder Singh; International Representative
+  - Proxy: Zenah Large; Special Events Programmer (Social)
+=== Appointed Councillors
+- Fatin Shadab Talukder; Special Events Programmer (Research)
+- Matthew Gray; Student Services Programmer (Operations)
+- Yeeun Ryu; Director of Communications
 == Guests
 - Heaven Kaur; President of UMSU
 - Grace Elendu; Vice President of University Affairs of UMSU
@@ -325,20 +331,18 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
   "President and Vice President": [
     - President Noah Crossman and Vice President Pereira gave a summation of the Report of the President and Vice President.
     - *Questions:*
-      - President Crossman asked whether having deans of the Faculty of Science present at the SSA Town Hall, as they have in previous Town Halls, is beneficial or a hinderance. If a hinderance, President Crossman or Vice President Pereira may give updates on behalf of the deans.
+      - President Crossman asked whether having deans of the Faculty of Science present at the SSA Town Hall, as they have in previous Town Halls, is beneficial or a hindrance. If a hindrance, President Crossman or Vice President Pereira may give updates on behalf of the deans.
         - #who("joshi") and #who("brar") spoke in favour of having the deans present, as they are not easy to access for students-at-large.
       - #who("gislason") asked how students may nominate themselves as candidates at the upcoming General Assembly to fill the vacant First Years' Representative and Racialized Representative positions.
         - #who("pereira") stated that candidates may simply nominate themselves at the General Assembly as long as they self-identify with the group they are running to represent.
-      - #who("hong") asked whether voting for the Community Representatives at the Community Assembly will be restricted to those who self-identify with the groups the Community Representatives will represent.
-        - #who("pereira") stated that all students will count toward quorom for the General Assembly. However, voters will be asked only to vote in the elections in which they self-identify for the respective Community Representative group.
-      // SKIP: FROM byelection to DUROJAYE
-
+      - #who("hong") asked whether voting for the Community Representatives at the General Assembly will be restricted to those who self-identify with the groups the Community Representatives will represent.
+        - #who("pereira") stated that all students will count toward quorum for the General Assembly. However, voters will be asked only to vote in the elections in which they self-identify for the respective Community Representative group.
       - #who("uppal") asked about the current situation regarding expansion of the SSA Lounge courtyard.
-        - #who("crossman") stated that the courtyard is currently unfinished due to a lack of funds during a previous year. If the previous landscaping architects are still on leave, then the SSA could consider hiring an external architect. The SSA now has the funds to complete an expansion, but it is noted that few people use the courtyard.
+        - #who("crossman") stated that the courtyard is currently unfinished due to a lack of funds during a previous year. If the previous landscaping architects are still on leave, then the SSA could consider hiring an external architect. The SSA now has the funds to complete an expansion, but Councillors noted that few people use the courtyard.
         - #who("delaney") stated that students have been using the undeveloped section of the courtyard to play badminton and frisbee, expressing uncertainty about developing the area.
       - #who("kaur") asked about how the proposal to use the referendum fund to create a Neuroscience program (an idea from the 2025-26 academic year) would work.
-        - #who("crossman") stated that 2025-26 SSA President Jasmine Groisman had spoken to the Department of Biological Scieneces. The program would exist as its own degree path under Biological Sciences, and the primary use of funding would be to pay the salaries of instructors.
-      - #who("kaur") asked if the referendum fund could be used to fund a Pre-Optomery program at the university, stating that the program would not require new instructors, but only a new stream.
+        - #who("crossman") stated that 2025-26 SSA President Jasmine Groisman had spoken to the Department of Biological Sciences. The program would exist as its own degree path under Biological Sciences, and the primary use of funding would be to pay the salaries of instructors.
+      - #who("kaur") asked if the referendum fund could be used to fund a Pre-Optometry program at the university, stating that the program would not require new instructors, but only a new stream.
         - #who("crossman") stated that this can be discussed with the Associate Dean of Programs.
       - #who("durojaiye") asked if the referendum fund could be used to fund additional sections in courses that currently struggle with long waitlists.
         - #who("crossman") stated that he is unsure how talks would go, but said that it is a conversation he can have with the Associate Dean of Programs.
@@ -346,14 +350,14 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
   "Treasurer": [
     - #who("sharma") gave a summation of the Report of the Treasurer.
     - #who("sharma") presented the 2026-27 SSA Budget.
-    - *Motion for the Approval of the 2026-27 SSA Budget:* A motion to approve the SSA's budget for the academic year was moved by Kushal Joshi and seconded by Zaina Abazid.
+    - *Motion for the Approval of the 2026-27 SSA Budget:* A motion to approve the SSA's budget for the academic year was moved by Kushal Joshi and seconded by Zaina Abazid. The motion was carried without opposition.
     - *Comments:*
       - #who("brar") stated that the open bar and cheap ticket prices present at the 2025-26 SSA Gala were positive for student engagement, expressing concern about the cut to the Gala's alcohol budget.
       - #who("crossman") requested a round of applause for #who("sharma")'s work on preparing the SSA budget.
-      - #who("kruk") stated that during the 2025-26 academic year, then SSA President Jasmine Groisman requested #who("kruk") offset the costs of awards given at the 2025-26 SSA Gala. He stated that he was in contact with the head of awards of the Faculty of Science, who would circle back the following year. #who("kurk") states he will forward his converation to the Special Events Team or External Partnerships Programmer.
+      - #who("kruk") stated that during the 2025-26 academic year, then SSA President Jasmine Groisman requested #who("kruk") offset the costs of awards given at the 2025-26 SSA Gala. He stated that he was in contact with the head of awards of the Faculty of Science, who would circle back the following year. #who("kruk") stated he will forward his conversation to the Special Events Team or External Partnerships Programmer.
         - #who("joshi") stated that with the funds allocated to awards during the Gala, further savings may be made through a reduction of the awards budget.
           - #who("crossman") stated that the budget reduction was to reduce alcohol, not cut the Gala itself.
-          - #who("crossman") also notes that the reduction in funds will likely be offset by increased funds from ticket sales and an increased focus on securing sponsors.
+          - #who("crossman") also noted that the reduction in funds will likely be offset by increased funds from ticket sales and an increased focus on securing sponsors.
       - #who("derksen") expressed concern over reductions in the SSA Gala's budget, stating that it is uncertain that revenue from ticket sales will increase.
         - #who("crossman") stated that the budget does not comprise all of the SSA's funds. Not all of the SSA's savings have been allocated, but the funds can be drawn on if necessary.
         - #who("sharma") stated that there may be extra funds in the budget over time from allocations that go unspent.
@@ -367,8 +371,8 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
   ],
   "Special Events": [
     - #who("derksen") provided a summation of the Report of the Special Events Team.
-    - *Team Bonding Pizza Motion:* A motion to reimburse #who("pereira") for \$138.24 in pizzas purchased for SSA team bonding was moved by Noah Crossman and seconded by April Quill. The motion was carried with one opposition vote from Danylo Kruk.
-    - *Team Bonding Pizza Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LabTREK was moved by Danylo Kruk and seconded by Noah Crossman. The motion was carried with one opposition vote from Danylo Kruk.
+    - *Team Bonding Pizza Reimbursement Motion:* A motion to reimburse #who("pereira") for \$138.24 in pizzas purchased for SSA team bonding was moved by Noah Crossman and seconded by April Quill. The motion was carried with one opposition vote from Danylo Kruk.
+    - *LabTREK Reimbursement Motion:* A motion to reimburse Vice President Pereira for \$448.25 in pizzas purchased for LabTREK was moved by Danylo Kruk and seconded by Noah Crossman. The motion was carried with one opposition vote from Danylo Kruk, who moved the motion.
     - *Breakfast and Gratuities Reimbursement Motion:* A motion to reimburse #who("derksen") for \$237.39 for spending on breakfast, gratuities, drinks, and snacks was moved by Caleb Pereira and seconded by Noah Crossman. The motion was carried without opposition.
     - *Comments:*
       - #who("crossman") thanked the Special Events team for their work on LabTREK.
@@ -413,7 +417,7 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
     - *Comments:*
       - #who("sarte") reminded Councillors that the deadline to join the Board of Science Groups (BOSG) is approaching soon (September 30, 11:59 p.m.). Councillors were encouraged to spread this reminder.
     - *Questions:*
-      - #who("joshi") asked if the deadline to apply to the BOSG would be extended if a group was awaiting full recognition by UMSU, or if a group was awaiting UMSU approval for constituional amendments  required to join the BOSG. It was noted that the process to amend a club constitution is often slow to complete.
+      - #who("joshi") asked if the deadline to apply to the BOSG would be extended if a group was awaiting full recognition by UMSU, or if a group was awaiting UMSU approval for constitutional amendments  required to join the BOSG. It was noted that the process to amend a club constitution is often slow to complete.
         - #who("sarte") stated that if a group has been pre-approved by UMSU and the group's executives have completed the required Sexual Violence Prevention Workshop for approval, they can contact him and explain the group's situation, and contact him subsequently upon obtaining full recognition.
         - With regard to the constitutional amendments, #who("sarte") stated that he will contact all groups expected to join the BOSG, working with groups on a case-by-case basis.
   ],
@@ -431,49 +435,115 @@ A motion to approve the previous meeting's minutes was moved by Vice President P
 == Miscellaneous
 - Following the Report of the President and Vice President, UMSU President Heaven Kaur and UMSU Vice President of University Affairs Grace Elendu visited the SSA Council meeting.
 - *Guest Speaking Motion:* A motion to allow Kaur and Elendu to speak was moved by President Crossman and seconded by Senator Joshi. The motion was carried without opposition.
-- UMSU President Kaur reminded Councillors of UMSU's planned protest at the Manitoba Legislative Building,
+- UMSU President Kaur reminded Councillors of UMSU's planned protest at the Manitoba Legislative Building.
 - Elendu reminded Councillors of UMSU's Ask Admin event.
 - *Questions:*
   - #who("joshi") asked whether there is anything the SSA could help with in regards to the events.
-    - UMSU President Kaur responded, stating that it w ould be helpful to advertise the event to students.
-  - #who("kruk") mentioned that some Councillors had questions regarding the resignation the Vice President of External Affairs and Vice President of Finance and Operations of UMSU.
+    - UMSU President Kaur responded, stating that it would be helpful to advertise the event to students.
+- *Discussion:*
+  - #who("kruk") mentioned that some Councillors had questions regarding the resignation of the Vice President of External Affairs and Vice President of Finance and Operations of UMSU.
     - Elendu stated that the UMSU Executive Committee would prefer that a by-election not be held. She stated the period between May, when the elected executives take office, and August, is a critical period for executives to become effective in their roles. Elendu stated that if a by-election were held in October, the elected candidates would take office in November and reach optimal performance in March before their term ends in May.
   - #who("sharma") and #who("brar") expressed concern about potential delays for things like email communications or approval from UMSU.
     - UMSU President Kaur stated that there will be no additional delays to responses. Kaur stated that emails directed to the inboxes of the Vice President of External Affairs and Vice President of Finance and Operations will be directed to her inbox, stating that emails should be responded to on the same day or the day after.
     - UMSU President Kaur stated that an additional person will be hired by the end of October to assist in the portfolio of UMSU Services Coordinator Mathew Chomyn to prevent delays.
-  - #who("pereira") asked that if a by-election is not held, whether it will be transparently communicated which remaining executives take on the portfolio items of the resigned executives.
+  - #who("pereira") asked whether the division of executive portfolios will be transparently communicated if a by-election is not held.
+    // if a by-election is not held, whether it will be transparently communicated which remaining executives take on the portfolio items of the resigned executives.
     - Elendu stated that the current proposal for dividing the roles of the resigned executives among the remaining executives is in a Board of Directors motion that is publicly available. Elendu stated that the division of roles was deliberated upon extensively by the remaining executives.
-    - UMSU President Kaur stated that the division of roles is not ideal, but stated that she believed it was the best option in given situation.
-- *Comments:*
-  - #who("pereira") expressed concern about the plan to not hold a by-election to fill the vacated executive positions, stating that by having the remaining UMSU executives take over the portfolios of the two executives who resigned, the mandate of the remaining executives may be diluted. #who("pereira") expressed concern delays will occur if roles are divided as the semester progresses and executives become more occupied with coursework.
-- *Questions:*
-  - Elendu stated that if a by-election is not held, the salaries of the resigned executives would be allocated in a motion submitted to the UMSU Board of Directors. Elendu noted that in the previous year, the salaries of removed executives were allocated to the University of Manitoba Food Bank.
+    - UMSU President Kaur stated that the division of roles is not ideal, but stated that she believed it was the best option given the circumstances.
+  - #who("pereira") expressed concern about the proposal to not hold a by-election to fill the vacated executive positions, stating that by having the remaining UMSU executives take over the portfolios of the two executives who resigned, the mandate of the remaining executives may be diluted. #who("pereira") expressed concern delays will occur if roles are divided as the semester progresses and executives become more occupied with coursework.
+  // - *Questions:*
+  - Elendu stated that if a by-election is not held, the salaries of the resigned executives would be allocated in a motion submitted to the UMSU Board of Directors. Elendu noted that in the previous year, the salaries of resigned executives were allocated to the University of Manitoba Food Bank.
 == New Business
 - #who("sharma") requested that when filling out the SSA Councillor reimbursement form, Councillors match the budget category on the form with the same ballot allocation as the newly approved SSA budget.
 - Treasurer Sharma stated that the SSA received the 30% advance payment from UMSU. // TODO: elaborate
 - *Council Meeting Pizza Motion:* A motion to reimburse the cost of \$167.83 in pizza purchased for the present Council meeting was moved by Kushal Joshi and seconded by Seun Fatunmbi. The motion was carried without opposition.
 - #who("crossman") thanked #who("sarte") for chairing the meeting.
 - #who("pereira") thanked Councillors for their work.
-== Important Dates
+// == Important Dates
 == Adjournment
 A motion to adjourn the meeting was moved by Danylo Kruk and seconded by Noah Crossman. The motion was adopted without objection and the meeting was adjourned at 8:08 p.m.
 
 // --- MOTIONS ---
 #pagebreak()
 = Motions
-// Consider giving a more readable identifier, like PRES.A.2026.06.24
+All motions moved are shown below.
 #motion(
-  title: "Example Motion 1 (ID: P062426A)",
-  category: "President & Vice President's Report",
-  body: [*WHEREAS* The Executive Committee, hereafter referred to as the Executive, shall be composed of:
-    - Executive Assistant; as chair
-    - President
-    - Vice President
-    - Treasurer
-    - Two other elected Councillors elected from and by Council \ \
-    *BE IT RESOLVED* that the Executive Committee be struck, composed of Noah, Caleb, Nick, Anshika, Danylo and Hargun
+  title: "Approval of the 2026-27 SSA Budget",
+  category: "Treasurer's Report",
+  body: [
+    Approve the 2026-27 SSA Budget.
   ],
-  moved-by: "Jane Doe",
-  seconded-by: "John Smith",
+  moved-by: "Kushal Joshi",
+  seconded-by: "Zaina Abazid",
   status: "Passed",
 )
+
+
+#motion(
+  title: "Orientation Ice Cream Reimbursement",
+  category: "Student Services Report",
+  body: [
+    Reimburse \$143.66 in ice cream purchased for orientation events.
+  ],
+  moved-by: "Danylo Kruk",
+  seconded-by: "Hargun Uppal",
+  status: "Passed",
+)
+
+
+#motion(
+  title: "Team Bonding Pizza Reimbursement",
+  category: "Special Events Report",
+  body: [
+    Reimburse \$138.24 in pizza purchased for SSA team bonding.
+  ],
+  moved-by: "Noah Crossman",
+  seconded-by: "April Quill",
+  status: "Passed",
+)
+
+#motion(
+  title: "LabTREK Reimbursement",
+  category: "Special Events Report",
+  body: [
+    Reimburse \$448.25 in food purchased for LabTREK.
+  ],
+  moved-by: "Danylo Kruk",
+  seconded-by: "Noah Crossman",
+  status: "Passed",
+)
+
+#motion(
+  title: "Breakfast and Gratuities Reimbursement",
+  category: "Special Events Report",
+  body: [
+    Reimburse \$237.39 in breakfast, gratuities, drinks, and snacks.
+  ],
+  moved-by: "Caleb Pereira",
+  seconded-by: "Noah Crossman",
+  status: "Passed",
+)
+
+
+#motion(
+  title: "Guest Speaking Motion",
+  category: "Miscellaneous",
+  body: [
+    Grant guest speaking time to UMSU President Heaven Kaur and UMSU Vice President of University Affairs Grace Elendu.
+  ],
+  moved-by: "Noah Crossman",
+  seconded-by: "Kushal Joshi",
+  status: "Passed",
+)
+
+#motion(
+  title: "Council Meeting Pizza",
+  category: "New Business",
+  body: [
+    Reimburse \$167.83 in pizza purchased for the present Council meeting.
+  ],
+  moved-by: "Kushal Joshi",
+  seconded-by: "Seun Fatunmbi",
+  status: "Passed",
+)
+
