@@ -1,3 +1,10 @@
+#set document(
+  title: "[2026-09-23] SSA Meeting Minutes",
+  author: "Jason Hong",
+  description: "Official minutes of the SSA Council regular meeting held on September 23, 2026.",
+)
+#set text(lang: "en", region: "CA")
+
 // names.typ — automatic name formatting for meeting minutes
 //
 // First mention of a person within an agenda item uses their "intro" style;
@@ -283,7 +290,11 @@
     Chaired By: Nick Sarte, Executive Assistant \
     Meeting type: Regular
   ],
-  image("../template/ssa_logo.png", width: 2.75cm),
+  image(
+    "../template/ssa_logo.png",
+    width: 2.75cm,
+    alt: "Logo of the Science Students' Association of the University of Manitoba.",
+  ),
 )
 
 #divider()
