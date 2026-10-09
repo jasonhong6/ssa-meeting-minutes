@@ -54,18 +54,18 @@
   "Communications": [
     - In #who("ryu")'s absence, #who("kaur") summarized the Report of the Communications Team.
     - *Questions:*
-      - #who("sarte") asked if the QR code to apply for SSA travel and sponsorship funds is out to date.
-        - #who("kaur") stated that she will ask the Communications team.
+      - #who("sarte") asked if the QR code to apply for SSA travel and sponsorship funds is out of date.
+        - #who("kaur") stated that she would ask the Communications team.
     - *Comments:*
       - #who("crossman") stated that for the SSA Instagram posts displaying upcoming dates where the SSA Lounge is booked for events, it may be preferable to use the term "Lounge booking" opposed to "Lounge closure."
   ],
   "Student Services": [
     - #who("wong") and #who("lozano") summarized the Report of the Student Services Team.
-    - *Discussion:* #who("wong") noted an email received from the Academic Advising office from the Faculty of Engineering asking if the office may recommend the SSA's tutoring program.
+    - *Discussion:* #who("wong") noted an email received from the Academic Advising office of the Faculty of Engineering asking if the office may recommend the SSA's tutoring program.
       - #who("wong") noted that the SSA tutoring program does not ask students being tutored their faculty or otherwise impose significant restrictions. The primary question to discuss is whether the office should advertise the program.
       - #who("crossman") asked whether the office indicated how many students would be interested in joining the tutoring program.
         - #who("wong") stated that the office asked only for permission to recommend the program to engineers.
-      - #who("crossman") stated that the SSA pays a flat rate for access for the tutoring program, noting that cost would not be an issue, but the main concern would be engineering students occupying spots in the program that would otherwise have gone to science students.
+      - #who("crossman") stated that the SSA pays a flat rate to access the tutoring program, noting that cost would not be an issue, but the main concern would be engineering students occupying spots in the program that would otherwise have gone to science students.
       - #who("talukder") noted that the University of Manitoba Engineering Society (UMES) operates its own program which charges for tutoring.
         - #who("pereira") stated that while engineering students independently joining the SSA tutoring program is not an issue, it may be undesirable to actively advertise in engineering spaces, as it may encroach on the UMES tutoring program.
       - #who("pereira") asked if UMES offers tutors for science courses, noting that there is no risk of encroaching on the UMES program if there is no overlap in courses offered.
@@ -93,7 +93,7 @@
 #let committee-reports = (
   "Executive Committee": [
     - #who("sarte") summarized the report of the Executive Committee.
-    - #who("sarte") stated that fifteen groups have been admitted to the Board of Science Student Groups (BOSG) and some additional groups are interested in joining. However, the deadline is quickly approaching and the remaining groups have had issues communicating with UMSU, particularly with regard to club pre-approval and club constitutional amendments. #who("sarte") notes that a lack of UMSU pre-approval is an issue for admission.
+    - #who("sarte") stated that fifteen groups have been admitted to the Board of Science Student Groups (BOSG) and some additional groups are interested in joining. However, the deadline is quickly approaching and the remaining groups have had issues communicating with UMSU, particularly with regard to club pre-approval and club constitutional amendments. #who("sarte") noted that a lack of UMSU pre-approval is an issue for admission.
     - *Discussion:* #who("sarte") asked Councillors if a strict deadline should be set for joining the BOSG, or if the SSA should work with groups on a case-by-case basis to potentially join the BOSG.
       - #who("negi") asked which of the remaining groups interested in joining the BOSG are departmental groups.
         - #who("sarte") stated that there are five student groups interested in applying to the BOSG who have not yet completed the process. Four are departmental groups: the Biology Undergraduate Students' Association (BUGS), University of Manitoba Statistics Students (UMs2),  EigenClub, and Chem Club. One (UMTI) is non-departmental.
@@ -110,7 +110,7 @@
 
 #let other-business = (
   [
-    - #who("pereira") provided a notice of motion for two upcoming motions to be moved by the Bylaws Committee. One motion will amend the committee itself, and the other well amend the section on running general elections.
+    - #who("pereira") provided a notice of motion for two upcoming motions to be moved by the Bylaws Committee. One motion will amend the committee itself, and the other will amend the section on running general elections.
     - *Council Meeting Pizza Motion:* #fullname("pereira") moved a motion to reimburse himself \$142.28 in pizzas purchased for the present Council meeting. #fullname("gislason") seconded the motion. #who("kruk") asked a question about the motion. The motion was carried with one opposition vote from #fullname("kruk").
   ]
 )

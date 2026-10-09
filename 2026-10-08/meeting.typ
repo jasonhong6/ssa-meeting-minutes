@@ -13,6 +13,11 @@
 #import "../template/people.typ": people
 #import "reports.typ": committee-reports, council-reports, final-considerations, other-business
 
+#set document(
+  author: "Jason Hong",
+  description: "Official minutes of the SSA Council regular meeting held on September 23, 2026.",
+)
+
 #show: minutes.with(
   people: people,
   // chair: "Reyna Torres", // default is set in minutes.typ; uncomment to override
@@ -27,10 +32,18 @@
   // One entry per line, e.g. ([Jason Hong; Secretary (no proxy required)],).
   // Note the trailing comma when there is only one entry. Use () for "None."
   regrets: (
-    [#fullname("joshi")\; Senator \ - Proxy: #fullname("hong")\; Secretary],
-    [#fullname("uppal")\; Senator \ - Proxy: #fullname("sarte"); Executive Assistant],
-    [#fullname("brar")\; Director of Student Advocacy
-      \ - Proxy: #fullname("talukder")\; Special Events Programmer (Research)],
+    [
+      #fullname("joshi")\; Senator
+      - Proxy: #fullname("hong")\; Secretary
+    ],
+    [
+      #fullname("uppal")\; Senator
+      - Proxy: #fullname("sarte")\; Executive Assistant
+    ],
+    [
+      #fullname("brar")\; Director of Student Advocacy
+      - Proxy: #fullname("talukder")\; Special Events Programmer (Research)
+    ],
     [#fullname("sharma")\; Treasurer],
     [#fullname("haque")\; External Partnerships Programmer],
     [#fullname("conia")\; Communications Programmer (Marketing)],
@@ -122,7 +135,7 @@
       title: "Lounge Pool Table Motion",
       category: "Report of the Lounge Programmer",
       body: [
-        Approve \$157.32 in funding to purchase pool pockets to repair the SSA Lounge's pool table.
+        Approve \$157.32 in funding to purchase pool table pockets to repair the SSA Lounge's pool table.
       ],
       moved-by: fullname("kruk"),
       seconded-by: fullname("sarte"),
@@ -146,7 +159,7 @@
       body: [
         Approve \$142.28 reimbursement to Caleb Pereira for the cost of pizzas purchased for the present Council meeting.
       ],
-      moved-by: "pereira",
+      moved-by: fullname("pereira"),
       seconded-by: fullname("gislason"),
       status: "Passed",
     ),

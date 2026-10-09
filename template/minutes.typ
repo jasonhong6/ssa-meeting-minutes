@@ -178,7 +178,7 @@
     *Science Students' Association Council Meeting* \
     Date: #_or(date, "date") \
     Location: #_or(location, "location") \
-    Chaired By: #chair, Chairperson \
+    Chaired by: #chair, Chairperson \
     Meeting type: #_or(meeting-type, "meeting type")
   ],
   image("ssa_logo.png", width: 2.75cm),
@@ -315,7 +315,7 @@
     _attendance-table(attendance)
   }
 
-  [== Regrets and Proxies]
+  [== Absences and Proxies]
   if regrets == none {
     _or(none, "regrets and proxies")
   } else if regrets.len() == 0 {
@@ -347,9 +347,11 @@
   )
 
   [== Reports of Councillors]
+  [The symbol _†_ indicates that no report was given.]
   _report-sections(council-roles, reports, "council")
 
   [== Reports of Committees]
+  [The symbol _†_ indicates that no report was given.]
   _report-sections(committee-roles, committee-reports, "committee")
 
   [== Other Business]
