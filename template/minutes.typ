@@ -291,7 +291,7 @@
   if type(date) == str { title += ", " + date }
   set document(title: title)
   set page(margin: 1in, paper: "us-letter")
-  set par(leading: 0.55em, spacing: 0.55em, first-line-indent: 1.8em, justify: true)
+  set par(leading: 0.55em, spacing: 0.55em, justify: true)
   show heading: set block(above: 1.4em, below: 1em)
   show heading: it => {
     if it.level <= names-reset-level { _seen.update(()) }

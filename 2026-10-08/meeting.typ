@@ -26,7 +26,22 @@
   attendance: csv("attendance.csv"),
   // One entry per line, e.g. ([Jason Hong; Secretary (no proxy required)],).
   // Note the trailing comma when there is only one entry. Use () for "None."
-  regrets: none,
+  regrets: (
+    [#fullname("joshi")\; Senator \ - Proxy: #fullname("hong")\; Secretary],
+    [#fullname("uppal")\; Senator \ - Proxy: #fullname("sarte"); Executive Assistant],
+    [#fullname("brar")\; Director of Student Advocacy
+      \ - Proxy: #fullname("talukder")\; Special Events Programmer (Research)],
+    [#fullname("sharma")\; Treasurer],
+    [#fullname("haque")\; External Partnerships Programmer],
+    [#fullname("conia")\; Communications Programmer (Marketing)],
+    [#fullname("ryu")\; Director of Communications],
+    [#fullname("dhaliwal")\; Communications Programmer (Marketing)],
+    [#fullname("ganetsky")\; Communications Programmer (Media)],
+    [#fullname("large")\; Special Events Programmer (Social)],
+    [#fullname("ogweno")\; Director of Student Services],
+    [#fullname("kumar")\; Student Services Programmer (Operations)],
+    [#fullname("gray")\; Student Services Programmer (Operations)],
+  ),
 
   // --- Minutes ---
   called-to-order: "6:04 p.m.", // include a.m./p.m., e.g. "7:02 p.m."
@@ -59,6 +74,82 @@
     //   seconded-by: "John Smith",
     //   status: "Passed",
     // ),
+    motion(
+      title: "UM Food Bank support fee",
+      id: "P100726A",
+      category: "Report of the President and Vice President",
+      body: [
+        *WHEREAS* SSA is developing its new Grocery Support Program.
+
+        *WHEREAS* SSA will be partnering with the UM Food Bank to provide groceries for students.
+
+        *WHEREAS* the UM Food Bank has requested \$250 to account for the potential influx of students. \ \
+
+        *BE IT RESOLVED* that the SSA commits \$250 to the UM Food Bank to support the SSA Grocery Support Program.
+      ],
+      moved-by: fullname("crossman"),
+      seconded-by: fullname("quill"),
+      status: "Passed",
+    ),
+
+    motion(
+      title: "Purchasing grocery store gift cards",
+      id: "P100726B",
+      category: "Report of the President and Vice President",
+      body: [
+        *WHEREAS* SSA is developing its new Grocery Support Program. \
+        *WHEREAS* SSA will purchase 5 \$75 gift cards from a local grocery store to distribute to recipients. \ \
+
+        *BE IT RESOLVED* that the SSA commits \$375 to the purchase of 5 grocery store gift cards to support the SSA Grocery Support Program.
+      ],
+      moved-by: fullname("crossman"),
+      seconded-by: fullname("abazid"),
+      status: "Passed",
+    ),
+
+    motion(
+      title: "Pumpkin Painting Funding Motion",
+      category: "Report of the Indigenous Representative",
+      body: [
+        Approve \$150.00 in funding for the Pumpkin Painting Hangout event.
+      ],
+      moved-by: fullname("quill"),
+      seconded-by: fullname("gislason"),
+      status: "Passed",
+    ),
+
+    motion(
+      title: "Lounge Pool Table Motion",
+      category: "Report of the Lounge Programmer",
+      body: [
+        Approve \$157.32 in funding to purchase pool pockets to repair the SSA Lounge's pool table.
+      ],
+      moved-by: fullname("kruk"),
+      seconded-by: fullname("sarte"),
+      status: "Passed",
+    ),
+
+    motion(
+      title: "SSA Office Snack Purchases",
+      category: "Report of the Lounge Programmer",
+      body: [
+        Approve \$240.00 in funding for snacks for the SSA office.
+      ],
+      moved-by: fullname("gislason"),
+      seconded-by: fullname("pereira"),
+      status: "Passed",
+    ),
+
+    motion(
+      title: "Council Meeting Pizza Motion",
+      category: "Other Business",
+      body: [
+        Approve \$142.28 reimbursement to Caleb Pereira for the cost of pizzas purchased for the present Council meeting.
+      ],
+      moved-by: "pereira",
+      seconded-by: fullname("gislason"),
+      status: "Passed",
+    ),
   ),
 )
 
