@@ -257,7 +257,7 @@
   if result not in (none, "as written", "as amended") {
     panic("`" + name + "`: result must be \"as written\" or \"as amended\", not " + repr(result))
   }
-  [A motion to approve #what was moved by #_or(mover, "mover") and seconded by #_or(seconder, "seconder"). #outcome approved as #_or(result, "as written / as amended").]
+  [A motion to approve #what was moved by #_or(mover, "mover") and seconded by #_or(seconder, "seconder"). #outcome approved #_or(result, "as written / as amended").]
 }
 
 // ---------------------------------------------------------------------
@@ -367,9 +367,10 @@
   }
 
   // --- Motions appendix (only if there are any) ---
+  pagebreak()
+  [= Motions]
+  [All motions moved at this meeting are shown below. Motions with IDs are recorded verbatim. Motions without IDs were summarized by the Secretary.]
   if motions.len() > 0 {
-    pagebreak()
-    [= Motions]
     motions.join(v(1em))
   }
 

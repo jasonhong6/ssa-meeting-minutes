@@ -143,7 +143,7 @@
     ),
 
     motion(
-      title: "SSA Office Snack Purchases",
+      title: "SSA Office Snack Purchase Motion",
       category: "Report of the Lounge Programmer",
       body: [
         Approve \$240.00 in funding for snacks for the SSA office.

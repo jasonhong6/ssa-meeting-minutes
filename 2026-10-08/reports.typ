@@ -84,7 +84,7 @@
     - *SSA Office Snack Purchase Motion:* #fullname("gislason") moved a motion to approve \$240.00 in funding for snacks for the SSA office. #fullname("pereira") seconded the motion. The motion was carried without opposition.
     - *Discussion:* Councillors briefly discussed preferences for snacks.
     - *Questions:*
-      - #who("negi") asked whether Professor Daniel Rea's EDI office hours will be restricted to students in Computer Science or if they will be open to all students.
+      - #who("negi") asked whether Professor Daniel Rea's EDI office hours (as mentioned in the Report of the Lounge Programmer) will be restricted to students in Computer Science or if they will be open to all students.
         - #who("delaney") stated that Rea did not specify, though the office hours will likely be available to all students.
   ],
   // "External Partnerships Programmer": [],
@@ -96,7 +96,7 @@
     - #who("sarte") stated that fifteen groups have been admitted to the Board of Science Student Groups (BOSG) and some additional groups are interested in joining. However, the deadline is quickly approaching and the remaining groups have had issues communicating with UMSU, particularly with regard to club pre-approval and club constitutional amendments. #who("sarte") noted that a lack of UMSU pre-approval is an issue for admission.
     - *Discussion:* #who("sarte") asked Councillors if a strict deadline should be set for joining the BOSG, or if the SSA should work with groups on a case-by-case basis to potentially join the BOSG.
       - #who("negi") asked which of the remaining groups interested in joining the BOSG are departmental groups.
-        - #who("sarte") stated that there are five student groups interested in applying to the BOSG who have not yet completed the process. Four are departmental groups: the Biology Undergraduate Students' Association (BUGS), University of Manitoba Statistics Students (UMs2),  EigenClub, and Chem Club. One (UMTI) is non-departmental.
+        - #who("sarte") stated that there are five student groups interested in applying to the BOSG who have not yet completed the process. Four are departmental groups: the Biology Undergraduate Students' Association (BUGS), University of Manitoba Statistics Students (UMs2),  EigenClub, and Chem Club. One, University of Manitoba Tech and Innovation (UMTI) is non-departmental.
       - #who("pereira") stated that it would be preferable to give grace to the groups who have made a meaningful effort to join the BOSG, but leniency should not be provided to groups who only begin the process of admission after the deadline has already passed.
       - #who("kruk") spoke in favour of a strict deadline, stating that he would prefer leniency in a first-time situation, but stated that in the previous academic year he gave significant effort in assisting clubs with UMSU approval and constitutional amendments, stating that clubs should follow the given deadlines.
       - #who("crossman") stated that while the remaining groups began the admission process later than what would be ideal, the groups must await a slow process to obtain approval by UMSU, and punishing clubs for this may be undesirable.
